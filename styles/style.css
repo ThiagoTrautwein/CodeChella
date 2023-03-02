@@ -67,6 +67,7 @@ nav a:hover {
     font-family: 'Calistoga';
     font-style: normal;
     white-space: nowrap;
+    font-weight: 400;
 }
 .degrade{
     background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);

@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+}
+.conteiner{
+    display:flex;
+    padding:3% 5%;
+    justify-content: space-evenly;
+    gap: 15%;
+    align-items: center;
+}
+
+.accessibilidade{
+    display:flex;
+    flex-direction: column;
+    gap:7%;
+    width:540px;
+}
+
+.accessibilidade h2{
+    font-weight: 700;
+    font-size: 32px;
+    color:white;
+    font-family: "Raleway";
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.accessibilidade p{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 24px;
+    color:white;
+    line-height: 48px;
+    text-align: left;
+    
+}
+.imagem-acc{
+    width:45%;
+    border-radius: 16px;
+}
+
+.sustentabilidade{
+    display:flex;
+    flex-direction: column;
+}
+
+.sustentabilidade h2{
+    font-weight: 700;
+    font-size: 32px;
+    color:white;
+    font-family: "Raleway";
+    text-align: right;
+    padding-bottom: 5%;
+}
+
+.sustentabilidade p{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 24px;
+    color:white;
+    line-height: 48px;
+    text-align: right;
+}
+
+.imagem-sustentabilidade{
+    width:45%;
+    border-radius: 16px;
+}
