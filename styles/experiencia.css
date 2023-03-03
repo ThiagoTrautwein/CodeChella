@@ -1,6 +1,9 @@
 body{
     box-sizing: border-box;
 }
+#experiencia {
+    text-decoration: underline;
+}
 .conteiner{
     display:flex;
     padding:3% 5%;
