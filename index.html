@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CodeChella</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+
+    <body>
+        <header class = "cabecalho">
+            <h1><a href = "index.html"><img src = "./assets/logo1.png" alt = "Logo do CodeChella" class = "cabecalho-logo"></a></h1>
+            <input type = "checkbox" id = "menu" class = "conteiner__botao">
+            <label for = "menu" id = "menu-hamburguer">
+                <span class="material-symbols-outlined">menu</span>
+            </label>
+
+            <div class = "lista-menu">
+                <a href = "#" id = "nav-mobile">A Experiência</a>
+                <a href = "#">Mapa de Setores</a>
+                <a href = "#">Informações</a>
+                <a href = "#">Ingressos</a>
+            </div>
+            
+        </header>
+
+        <main class = "principal">
+            <div class = "banner">
+                <img src = "./assets/banner.jfif" class = "banner-imagem">
+                <h1 class = "banner-titulo">Boas Vindas ao <br>#CodeChella 2023!</h1>
+            </div>
+            <div class = "secao1">
+                <img src = "./assets/imagem-seção1.jfif" class = "secao1-imagem" >
+                <div class = "secao1-conteiner">
+                    <h2 class = "secao1-titulo">11 e 12 de Março <br> Aluródromo de São Paulo</h2>
+                    <p class = "secao1-texto">Hora de programar nossa memória com novas lembranças! Uma nova experiência 
+                        sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!
+                    </p>
+                    <div class = "secao1-botao">
+                        <a href = "#">Comprar Ingresso!</a>
+                        <i class = "material-icons custom">stars</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "secao2">
+                <h2 class = "secao2-titulo">/Line-Up/</h2>
+                <h3 class = "secao2-subtitulo">SÁBADO &lt;11/03&gt;</h3>
+                <p class = "secao2-atracao-principal">System of a DOM</p>
+                <div class = "secao2-conteiner-desktop"> 
+                    <div class = "secao2-conteiner-horizontal" id = "secao2-espaco-ipad">
+                        <p class = "secao2-atracao-secundaria">Python Maiden</p>
+                        <p class = "secao2-atracao-secundaria" id = "secao2-espaco-mobile">Apollo Client 2001</p>
+                    </div>
+                    <div class = "secao2-conteiner-horizontal" id = "secao2-espaco-ipad">
+                        <p class = "secao2-atracao-secundaria">Bon Java</p>
+                        <p class = "secao2-atracao-secundaria" id = "secao2-espaco-mobile">NickCallback</p>
+                    </div>
+                </div>
+                
+                <div class = "secao2-conteiner-desktop">
+                    <div class = "secao2-conteiner-horizontal" id = "secao2-espaco-ipad">
+                        <p class = "secao2-atracao-terciaria">Linkin Promises</p>
+                        <p class = "secao2-atracao-terciaria" id = "secao2-espaco-mobile">Fullstack Fighters</p>
+                    </div>
+                    <div class = "secao2-conteiner-horizontal" id = "secao2-espaco-ipad">
+                        <p class = "secao2-atracao-terciaria">Papa React</p>
+                        <p class = "secao2-atracao-terciaria" id = "secao2-espaco-mobile">Angular in Chains</p>
+                    </div>
+                </div>
+                
+                <div class = "secao2-conteiner-desktop">
+                    <div class = "secao2-conteiner-horizontal" id = "secao2-espaco-ipad">
+                        <p class = "secao2-atracao-quaternaria">Agnostic Front-end</p>
+                        <p class = "secao2-atracao-quaternaria" id = "secao2-espaco-mobile">SlipkNode</p>
+                    </div>
+                    <div class = "secao2-conteiner-horizontal" id="secao2-espaco-ipad">
+                        <p class = "secao2-atracao-quaternaria">Pink Flutter</p>
+                        <p class = "secao2-atracao-quaternaria">Kiss</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            <div class = "secao2">
+                <h3 class = "secao2-subtitulo">DOMINGO &lt;12/03&gt;</h3>
+                <p class = "secao2-atracao-principal">Lana Del Ploy</p>
+                <div class = "secao2-conteiner-desktop">
+                    <div class = "secao2-conteiner-horizontal" id = "secao2-espaco-ipad">
+                        <p class = "secao2-atracao-secundaria">Dua Lib</p>
+                        <p class = "secao2-atracao-secundaria">The Backnd</p>
+                        <p class = "secao2-atracao-secundaria"id = "secao2-espaco-mobile">CSS Styles</p>
+                    </div>
+                    
+                    <div class = "secao2-conteiner-horizontal" id = "secao2-espaco-ipad">
+                        <p class = "secao2-atracao-secundaria">ArrayAna Grande</p>
+                        <p class = "secao2-atracao-secundaria" id = "secao2-espaco-mobile">DJ Query</p>
+                    </div>
+                </div>
+                
+                <div class = "secao2-conteiner-desktop">
+                    <div class = "secao2-conteiner-horizontal" id = "secao2-espaco-ipad">
+                        <p class = "secao2-atracao-terciaria">Miley Cypress</p>
+                        <p class = "secao2-atracao-terciaria" id = "secao2-espaco-mobile">The Bootstrap Boys</p>
+                    </div>
+    
+                    <div class = "secao2-conteiner-horizontal" id = "secao2-espaco-ipad">
+                        <p class = "secao2-atracao-terciaria">Json Derulo</p>
+                        <p class = "secao2-atracao-terciaria">CloudPlay</p>
+                        <p class = "secao2-atracao-terciaria" id = "secao2-espaco-mobile">Dev Lovato</p>
+                    </div>
+                </div>
+                
+                
+                <div class = "secao2-conteiner-horizontal">
+                    <p class = "secao2-atracao-quaternaria">Kylie MiLOG</p>
+                    <p class = "secao2-atracao-quaternaria">Jenkins Brothers</p>
+                    <p class = "secao2-atracao-quaternaria">Rubycat Dolls</p>
+                </div>
+                
+            </div>
+            
+            <div class = "banner2">
+                <img src = "assets/banner-2.jpg" class = "banner2-imagem">
+            </div>
+
+            <footer class = "rodape">
+                <script src="https://kit.fontawesome.com/f80eaf53f7.js" crossorigin="anonymous"></script>
+                <div class = "rodape-conteiner">
+                    <img src = "assets/logo1.png" class = "rodape-logo">
+                    <div class="rodape-texto-icones">
+                        <p class = "rodape-texto">Acesse nossas redes:&nbsp;</p>
+                        <div class = "rodape-icones">
+                            <a href = "https://www.whatsapp.com"><i class = "fa-brands fa-whatsapp">&nbsp;</i></a>
+                            <a href = "https://www.twitch.tv"><i class = "fa-brands fa-twitch">&nbsp;</i></a>
+                            <a href = "https://www.instagram.com"><i class = "fa-brands fa-instagram">&nbsp;</i></a>
+                            <a href = "https://www.twitter.com"><i class = "fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="rodape-texto">Desenvolvido por Thiago. <br>Projeto fictício sem fins comerciais</p>
+            </footer>
+            
+        </main>
+    </body>
+</html>

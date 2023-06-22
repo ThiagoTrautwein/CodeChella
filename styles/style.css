@@ -1,0 +1,447 @@
+.material-symbols-outlined {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color:white;
+    padding-right:1rem;
+  }
+
+
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+}
+
+.cabecalho {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1rem;
+    background-color: #4650BD;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    top: 100%;
+    width: 60vw;
+}
+
+.conteiner__botao:checked~.lista-menu {
+    z-index: 1000;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+    background-color:#4650BD;
+    height:100vh;
+    top:86px;
+
+}
+
+.conteiner__botao{
+    display:none;
+}
+
+.lista-menu a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding:0.5rem;
+    border-bottom: 1px solid white;
+
+}
+.principal {
+    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    overflow-x: hidden;
+}
+.banner {
+    display:flex;
+    align-items: center;
+    height:16.875rem;
+}
+.banner-titulo {
+    vertical-align: middle;
+    width:100%;
+    position: absolute;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.625rem;
+    color: white;
+    
+}
+
+.banner-imagem{
+    position: absolute;
+    width:100%;
+    height:16.875rem;
+}
+.secao1 {
+    padding: 2rem;
+    display:flex;
+    gap:2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secao1-imagem{
+    text-align: center;
+    border-radius: 1rem;
+    width: 100%;
+}
+.secao1-conteiner{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+}
+.secao1-titulo {
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    color:white;
+    overflow-wrap: break-word;
+}
+.secao1-texto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color:white;
+}
+.secao1-botao{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    box-shadow: 0.25rem 0.25rem 0rem #444444;
+    border-radius: 1rem;
+    background: #4650BD;
+    width:auto;
+}
+
+.secao1-botao a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color:white;
+    text-decoration: none;
+}
+.secao1-botao:hover{
+    cursor: pointer;
+    box-shadow: 0.25rem 0.25rem 0.25rem #444444;
+}
+.secao1-botao i {
+    color:white;
+}
+
+.secao2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+
+.secao2-titulo {
+    padding-top:2rem;
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.875rem;
+    color: white;
+    text-align: center;
+}
+
+.secao2-subtitulo {
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.625rem;
+    background: #008364;
+    padding:1rem 1rem;
+    margin-top:5rem;
+    margin-bottom:3rem;
+    text-align: center;
+    color:white;
+}
+
+.secao2-atracao-principal {
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color:white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.secao2-conteiner {
+    display:flex;
+    align-items: center;
+}
+
+#secao2-espaco-mobile{
+    padding-bottom:2rem;
+}
+.secao2-atracao-secundaria {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.9375rem;
+    color:white;
+    text-align: center;
+}
+
+.secao2-atracao-terciaria{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    color:white;
+    text-align: center;
+}
+
+.secao2-atracao-quaternaria{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    text-align: center;
+    color:white;
+}
+
+#secao2-espaco-ipad {
+    padding-bottom: 2rem;
+}
+
+.banner2-imagem{
+    padding-top:3rem;
+    padding-bottom:2rem;
+    width:100%;
+}
+
+.rodape{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap:1rem;
+    padding-bottom: 1rem;
+}
+
+.rodape-logo{
+    padding-right:3rem;
+    padding-left: 3rem;
+    text-align: center;
+}
+
+.rodape-texto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color:white;
+}
+.rodape-icones{
+    display:flex;
+    justify-content: center;
+    gap:0.5rem;
+}
+.rodape-icones a{
+    color:white;
+    text-decoration: none;
+    font-size:1.5rem;
+}
+
+@media (min-width:768px) {
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .lista-menu{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        gap:2rem;
+        padding-bottom:2rem;
+    }
+
+    .lista-menu a {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        color:white;
+        text-decoration: none;
+        border-bottom:0px;
+    }
+    
+   #menu-hamburguer{
+        display:none;
+   }
+
+   .banner-titulo {
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 5.1875rem;
+   }
+
+   .secao1-imagem {
+        width:85%;
+   }
+
+   .secao2-titulo{
+        font-size: 4rem;
+        line-height: 5.1875rem;
+        font-weight: 700;
+   }
+   .secao2-subtitulo {
+        font-size: 3rem;
+        line-height: 3.875rem;
+   }
+   .secao2-conteiner-desktop{
+        flex-direction: column;
+        display:flex;
+        align-items: center;
+        gap:1rem;
+   }
+   .secao2-conteiner-horizontal{
+        display:flex;
+        align-items: center;
+        gap:2rem;
+   }
+   #secao2-espaco-mobile{
+    padding-bottom: 0rem;
+   }
+   #secao2-espaco-ipad{
+    padding-bottom: 2rem;
+   }
+   .rodape-logo{
+        width:40%;
+   }
+   .rodape-texto-icones{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+   }
+
+}
+
+@media (min-width:1440px) {
+    .cabecalho {
+        flex-direction: row;
+        align-items: center;
+        padding-bottom:4rem;
+        
+        
+    }
+    .cabecalho-logo {
+        padding-left: 7.5rem;
+    }
+    .lista-menu {
+        width:100%;
+        display:flex;
+        justify-content: end;
+        align-items: center;
+        gap:2rem;
+        padding-bottom:0rem;
+        padding-right:7.5rem;
+
+    }
+
+
+    .banner-imagem {
+        height:25.4375rem;
+    }
+    .secao1 {
+        flex-direction: row;
+        gap:3rem;
+        margin-top:8rem;
+        margin-left:7.5rem;
+    }
+    .secao1-imagem{
+        width:42%;
+    }
+    .secao1-conteiner{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:1.5rem;
+        padding-right:7.5rem;
+    }
+    .secao1-botao{
+        width:47%;
+    }
+    .secao2-subtitulo{
+        margin-top:2rem;
+    }
+    .secao2-conteiner-desktop{
+        flex-direction: row;
+    }
+    #secao2-espaco-mobile{
+        padding-bottom: 0rem;
+    }
+    #secao2-espaco-ipad{
+        padding-bottom: 2rem;
+    }
+    .banner2 {
+        height:21.125rem;
+    }
+    .banner2-imagem{
+        width:100%;
+        height:80%;
+    }
+    .rodape{
+        padding:2rem;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .rodape-conteiner{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape-logo{
+        width:100%;
+    }
+
+    
+}
+
+
+
+
