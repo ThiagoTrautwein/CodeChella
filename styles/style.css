@@ -20,6 +20,8 @@
     justify-content: space-between;
     gap:1rem;
     background-color: #4650BD;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .container__imagem {
@@ -41,7 +43,7 @@
     width:100%;
     background-color:#4650BD;
     height:100vh;
-    top:86px;
+    top:130px;
 
 }
 
@@ -287,6 +289,7 @@
 @media (min-width:768px) {
     .cabecalho{
         flex-direction: column;
+        padding:0 0 2rem 0;
     }
 
     .lista-menu{
@@ -294,7 +297,7 @@
         display:flex;
         justify-content: center;
         gap:2rem;
-        padding-bottom:2rem;
+        padding-bottom:1rem;
     }
 
     .lista-menu a {
@@ -311,8 +314,10 @@
    #menu-hamburguer{
         display:none;
    }
+   
 
    .banner-titulo {
+        vertical-align: middle;
         font-weight: 700;
         font-size: 4rem;
         line-height: 5.1875rem;
@@ -365,8 +370,6 @@
         flex-direction: row;
         align-items: center;
         padding-bottom:4rem;
-        
-        
     }
     .cabecalho-logo {
         padding-left: 7.5rem;
@@ -379,7 +382,6 @@
         gap:2rem;
         padding-bottom:0rem;
         padding-right:7.5rem;
-
     }
 
 
