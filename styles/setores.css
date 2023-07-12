@@ -1,0 +1,200 @@
+.setores-conteiner{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.mapa-setores{
+    width:100%;
+}
+.legenda {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap:1rem;
+    padding-left: 4rem;
+}
+.legenda h2{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:white;
+}
+.legenda p{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color:white;
+
+}
+.legenda-conteiner{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    
+}
+#quadrado-azul{
+    width: 2rem;
+    height: 2rem;
+    background: #0E7DF1;
+}
+#quadrado-vermelho {
+    width: 2rem;
+    height: 2rem;
+    background: #FE016E
+}
+#quadrado-verde {
+    width: 2rem;
+    height: 2rem;
+    background: #01A89E;
+}
+#quadrado-roxo {
+    width: 2rem;
+    height: 2rem;
+    background: #3F51B5;
+}
+
+
+.detalhes{
+    padding-top:2rem;
+    gap:2rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#detalhes-titulo{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:white;
+    padding-top:3rem;
+}
+.detalhes h3{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:white;
+
+}
+
+.detalhes-imagem{
+    width:19.5rem;
+    height:14.9375rem;
+    border-radius: 1rem;
+}
+
+.detalhes-texto{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color:white;
+    width:19.5rem;
+}
+.detalhes-conteiner {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+}
+
+@media (min-width:768px) {
+    .setores-conteiner{
+        padding-left:3.75rem;
+        padding-right:3.75rem;
+        align-items: center;
+    }
+    .legenda{
+        padding-left:0rem;
+    }
+    .legenda h2{
+        font-size: 2rem;
+    }
+    .detalhes-conteiner{
+        padding-left:3.75rem;
+        padding-right:3.75rem;
+    }
+    .detalhes-imagem{
+        width:23.9rem;
+    }
+    #detalhes-titulo{
+        font-size:2.5rem;
+        padding-top:3rem;
+    }
+    .detalhes h3{
+        padding-top:2rem;
+        font-size:2.5rem;
+    }
+    .detalhes-texto{
+       width:100%;
+    }
+    .rodape{
+        padding-top:1.5rem;
+    }
+    .rodape-logo{
+        width:60%;
+   }
+   .rodape-texto-icones{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+   }
+}
+
+@media (min-width:1440px) {
+    .setores-conteiner{
+        padding-top: 6rem;
+        padding-left: 7.5rem;
+        padding-right:7.5rem;
+        flex-direction: row;
+        align-items: self-start;
+        gap:20rem;
+    }
+    .legenda{
+        padding-top:8rem;
+        gap:1.5rem;
+    }
+    .mapa-setores{
+        width:43.125rem;
+    }
+    #detalhes-titulo{
+        font-size:2.5rem;
+        padding-bottom:3rem;
+    }
+    .detalhes{
+        flex-direction: row;
+        align-items: start;
+    }
+    .detalhes-conteiner{
+        padding-left:0rem;
+        padding-right: 0rem;
+        align-items: center;
+    }
+    .detalhes-texto{
+        width:23.9375rem;
+    }
+    #espaco{
+        margin-top: 6rem;
+    }
+    .conteiner-aux{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
