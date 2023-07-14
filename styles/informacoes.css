@@ -1,0 +1,103 @@
+.banner-imagem{
+    filter:brightness(50%);
+}
+.informacoes{
+    padding-top:3rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.informacoes h2{
+    text-align: center;
+    color:white;
+    font-family: "Calistoga";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.informacoes-conteiner{
+    display:flex;
+    flex-direction: column;
+    margin:0 1rem 0 1rem;
+    padding-top: 2rem;
+}
+
+.informacoes-subconteiner{
+    display:flex;
+    gap:1rem;
+    background-color: #4650BD;
+    align-items: center;
+    padding:1rem;
+}
+.informacoes-texto{
+    display: none;
+}
+
+.conteiner-seta:checked~.informacoes-texto{
+    display:block;
+    color: #444;
+    font-family: "Raleway";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; 
+    background-color: #C8DEEF;
+    padding:1rem;
+}
+.conteiner-seta{
+    display:none;
+}
+#setinha{
+    font-size: 2rem;
+}
+.informacoes-subconteiner h3 {
+    font-family: "Raleway";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:white;
+}
+#link{
+    text-decoration: underline;
+    color: #444;
+}
+#espaco{
+    margin-bottom: 2rem;
+}
+
+@media (min-width:768px){
+    #sublinhado{
+        text-decoration: underline;
+    }
+    .informacoes h2{
+        font-size: 3rem;
+    }
+    .informacoes-conteiner{
+        width:42.5rem;
+    }
+    .informacoes-subconteiner{
+        width:40.5rem;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:1440px) {
+    .informacoes h2{
+        padding-top: 3rem;
+        padding-bottom:3rem;
+        font-size: 4rem;
+    }
+
+    .informacoes-conteiner{
+        width:64.25rem;
+    }
+    .informacoes-subconteiner{
+        width:62.25rem;
+    
+    }
+
+    
+
+}

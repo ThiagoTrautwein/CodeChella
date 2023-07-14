@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Informações</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/informacoes.css">
+        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+
+    <body>
+        <header class = "cabecalho">
+            <h1><a href = "index.html"><img src = "./assets/logo1.png" alt = "Logo do CodeChella" class = "cabecalho-logo"></a></h1>
+            <input type = "checkbox" id = "menu" class = "conteiner__botao">
+            <label for = "menu" id = "menu-hamburguer">
+                <span class="material-symbols-outlined">menu</span>
+            </label>
+
+            <div class = "lista-menu">
+                <a href = "experiencia.html" id = "nav-mobile">A Experiência</a>
+                <a href = "setores.html">Mapa de Setores</a>
+                <a href = "informacoes.html" id = "sublinhado">Informações</a>
+                <a href = "#">Ingressos</a>
+            </div>
+        </header>
+
+        <main class = "principal">
+            <div class = "banner">
+                <img src = "./assets/banner-informacoes.jpg" class = "banner-imagem">
+                <h1 class = "banner-titulo">Informações Gerais</h1>
+            </div>
+            <section class = "informacoes">
+                <h2 >Perguntas Frequentes:</h2>
+                <div class = "informacoes-conteiner">
+                    <div class = "informacoes-subconteiner">
+                        <h3>Quais serão as atrações?</h3>
+                        <label for = "esconde-texto" id = "seta">
+                            <span class="material-symbols-outlined" id = "setinha">arrow_drop_down</span>
+                        </label>
+                    </div>
+                    <input type = "checkbox" id = "esconde-texto" class = "conteiner-seta">
+                    <p class = "informacoes-texto">Teremos dois dias de shows, o primeiro (11/03) 
+                        com bandas de rock, e o segundo (12/03) com 
+                        bandas pop. <a href = "index.html" id = "link">Confira o line-up em detalhes 
+                        clicando nestelink!</a>
+                    </p>
+                </div>
+
+                <div class = "informacoes-conteiner">
+                    <div class = "informacoes-subconteiner">
+                        <h3>Qual é a classificação etária?</h3>
+                        <label for = "esconde-texto2" id = "seta">
+                            <span class="material-symbols-outlined" id = "setinha">arrow_drop_down</span>
+                        </label>
+                    </div>
+                    <input type = "checkbox" id = "esconde-texto2" class = "conteiner-seta">
+                    <p class = "informacoes-texto">Livre para todos os públicos
+                    </p>
+                </div>
+
+                <div class = "informacoes-conteiner">
+                    <div class = "informacoes-subconteiner">
+                        <h3>Quais são os setores disponíveis?</h3>
+                        <label for = "esconde-texto3" id = "seta">
+                            <span class="material-symbols-outlined" id = "setinha">arrow_drop_down</span>
+                        </label>
+                    </div>
+                    <input type = "checkbox" id = "esconde-texto3" class = "conteiner-seta">
+                    <p class = "informacoes-texto">Vários
+                    </p>
+                </div>
+
+                <div class = "informacoes-conteiner">
+                    <div class = "informacoes-subconteiner">
+                        <h3>Quais são os itens proibidos?</h3>
+                        <label for = "esconde-texto4" id = "seta">
+                            <span class="material-symbols-outlined" id = "setinha">arrow_drop_down</span>
+                        </label>
+                    </div>
+                    <input type = "checkbox" id = "esconde-texto4" class = "conteiner-seta">
+                    <p class = "informacoes-texto">Os perigosos
+                    </p>
+                </div>
+
+                <div class = "informacoes-conteiner">
+                    <div class = "informacoes-subconteiner">
+                        <h3>Quanto custa um ingresso?</h3>
+                        <label for = "esconde-texto5" id = "seta">
+                            <span class="material-symbols-outlined" id = "setinha">arrow_drop_down</span>
+                        </label>
+                    </div>
+                    <input type = "checkbox" id = "esconde-texto5" class = "conteiner-seta">
+                    <p class = "informacoes-texto">Depende
+                    </p>
+                </div>
+                <p id = "espaco"></p>
+            </section>
+            
+        </main>
+
+        <footer class = "rodape">
+            <script src="https://kit.fontawesome.com/f80eaf53f7.js" crossorigin="anonymous"></script>
+            <div class = "rodape-conteiner">
+                <img src = "assets/logo1.png" class = "rodape-logo">
+                <div class="rodape-texto-icones">
+                    <p class = "rodape-texto">Acesse nossas redes:&nbsp;</p>
+                    <div class = "rodape-icones">
+                        <a href = "https://www.whatsapp.com"><i class = "fa-brands fa-whatsapp">&nbsp;</i></a>
+                        <a href = "https://www.twitch.tv"><i class = "fa-brands fa-twitch">&nbsp;</i></a>
+                        <a href = "https://www.instagram.com"><i class = "fa-brands fa-instagram">&nbsp;</i></a>
+                        <a href = "https://www.twitter.com"><i class = "fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="rodape-texto">Desenvolvido por Thiago. Projeto fictício sem fins comerciais</p>
+        </footer>
+    </body>
+</html>
