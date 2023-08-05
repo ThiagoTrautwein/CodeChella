@@ -1,0 +1,132 @@
+.banner-imagem{
+    filter:brightness(50%);
+}
+.principal h2{
+    padding-top:2rem;
+    padding-bottom:3rem;
+    color: #444;
+    text-align: center;
+    font-family: "Calistoga";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.conteiner-aux {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+.formulario{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.formulario-item{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    align-items: start;
+    padding-left:2rem;
+    padding-right: 2rem;
+}
+.principal h3{
+    color:#444;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#caixa-texto{
+    width: 100%;
+    height: 3rem;
+    font-size: 1.25rem;
+}
+
+#opcoes {
+    color: #444;
+    font-family: "Raleway";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+.botao-enviar{
+    width:10.25rem;
+    display:flex;
+    justify-content: space-around;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    align-items: center;
+    gap:1rem;
+    border-radius: 1rem;
+    background:  #4650BD;
+    box-shadow: 4px 4px 0px 0px #000;
+    margin-bottom:2rem;
+    
+}
+.botao-enviar:hover{
+    background: #5F6AC4;
+    cursor: pointer;
+}
+.botao-enviar h4{
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem; 
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+.conteiner-aux2{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+@media(min-width:768px){
+   #texto-ingresso{
+        font-size:3rem;
+        color: white;
+   }
+    .formulario{
+        width:100%;
+    }
+    #ajusta-tamanho{
+        width: 60%;
+    }
+    #sublinhado {
+        text-decoration: underline;
+    }
+}
+
+@media(min-width:1440px){
+    .principal h2{
+        padding-top:7rem;
+    }
+    .formulario{
+        width:80%;
+    }
+    .conteiner-aux2{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #ajusta-tamanho{
+        width:100%;
+    }
+    #ajusta-tamanho2{
+        width:100%;
+    }
+    .botao-enviar{
+        margin-top: 2rem;
+    }
+ }
+

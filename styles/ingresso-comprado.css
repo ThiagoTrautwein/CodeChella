@@ -1,0 +1,123 @@
+.banner-imagem{
+    filter:brightness(50%);
+}
+
+.conteiner-ingresso{
+    display:flex;
+    flex-direction: column;
+    padding:4rem 1.5rem 2rem 1.5rem;
+    gap:2rem;
+
+}
+    
+.texto-sucesso{
+    color: var(--branco, #FFF);
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ingresso-comprado{
+    height:35.25rem;
+    border: 0px solid var(--branco, #FFF);
+    background: var(--gradiente-boreal, linear-gradient(180deg, #304968 0%, #36C1A0 52.60%, #4650BD 100%));
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    padding:2rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3rem;
+}
+.conteiner-ingresso-comprado{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-around;
+}
+.conteiner-ingresso-comprado p{
+    color:white;
+    font-size:1.5rem;
+    font-weight: 800;
+    font-family: "Raleway";
+    font-style: italic;
+}
+.qrcode {
+    width:15.5rem;
+}
+.informacoes-ingresso-comprado{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    align-items: center;
+}
+.informacoes-ingresso-comprado h3{
+    color: var(--branco, #FFF);
+    text-align: center;
+    /* H6 */
+    font-family: "Raleway";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.informacoes-ingresso-comprado p{
+    color: var(--branco, #FFF);
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
+@media(min-width:768px) {
+    .banner-imagem{
+        margin-top:3rem;
+        height:23.8125rem;
+    }
+    .conteiner-ingresso{
+        padding-top:8rem;
+    }
+    .texto-sucesso{
+        font-size:2rem;
+    }
+    .ingresso-comprado{
+        height:38rem;
+    }
+    .conteiner-ingresso-comprado{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .qrcode{
+        width:18rem;
+    }
+    #sublinhado{
+        text-decoration: underline;
+    }
+}
+
+@media(min-width:1440px){
+    .banner-imagem{
+        margin-top:0rem;
+    }
+    .conteiner-ingresso{
+        align-items: center;
+        width:100%;
+    }
+    .ingresso-comprado{
+        height:21.875rem;
+        width:49.5rem;
+    }
+    .conteiner3{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        gap:3rem;
+    }
+    .informacoes-ingresso-comprado{
+        align-items: flex-start;
+    }
+}
