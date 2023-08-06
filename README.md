@@ -1,2 +1,2 @@
 # CodeChella
-Este projeto constistiu na criação da interface de um site fictício, utilizando HTML e CSS.
+Esse projeto é um challenge de Front-End proposto pela escola de programação Alura, no intuito de colocar em prática os conhecimentos adquiridos acerca de HTML e CSS
